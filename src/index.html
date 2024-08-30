@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css" >
+</head>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+        }
+    </style>
+<body>
+    <!-- Header -->
+    <header class="py-4 px-4 bg-black text-white shadow-lg">
+        <h4 class="font-black">PokeApi</h4>
+    </header>
+
+    <!-- Main Cointaner-->
+    <div class="mt-0 bg-zinc-900 py-7 md:px-3 sm:px-2 container sm:container">
+      <div class="grid auto-rows-auto grid-cols-1 sm:grid-cols-2 px-2  w-full">
+        <!-- Column 1-->
+        <div class="flex justify-center sm:justify-start ">
+          <!-- Cards Container -->
+          <div class="bg-white w-72 h-52 flex flex-col justify-center items-center gap">
+            <img class="h-full w-full bg-black" alt="">
+            <h6 class="">asdasd</h6>
+          </div>
+        </div>
+        <!-- Column 2-->
+         <div class="sm:mt-0 mt-5">
+            <!--Cards Details-->
+            <div class="grid auto-rows-auto grid-cols-2">
+              <div class="pl-5">
+                <p>Name :</p>
+                <p>Damage :</p>
+                <p>Health :</p>
+                <p>Element :</p>
+                <p>Weakness :</p>
+                <p>Speed :</p>
+              </div>
+              <div class="text-right pr-5">
+                <p>Name :</p>
+                <p>Damage :</p>
+                <p>Health :</p>
+                <p>Element :</p>
+                <p>Weakness :</p>
+                <p>Speed :</p>
+              </div>
+            </div>
+         </div>
+      </div>
+    </div>
+
+    <script src="../js/pokeapi.js"></script>
+</body>
+</html>
